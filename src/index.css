@@ -1,0 +1,19 @@
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid-row {
+    display: flex;
+}
+
+.grid-cell {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
